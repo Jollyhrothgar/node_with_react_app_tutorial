@@ -45,4 +45,11 @@ Heroku, AWS, Digital Ocean, etc. Heroku is free to get started with.
 
 Heroku uses a git-based deployment workflow.
 
+- App stuff:
+  - live url: https://glacial-reaches-57569.herokuapp.com
+  - git deployment (trigger a new deployment) https://git.heroku.com/glacial-reaches-57569.git  
+
+I just directly linked my github to heroku, so I can deploy to github. Build log
+will have to be checked on heroku proper.
+
 *Subsequent Deployments*

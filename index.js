@@ -27,7 +27,8 @@ const app = express();
 // resp: outgoing response
 // res.send: immediate response
 app.get('/', (req, res) => {
-	res.send({hi: 'there'});
+	//res.send({hi: 'there'});
+	res.send({bye: "buddy"});
 });
 
 // Figure out port dynamically
