@@ -56,7 +56,8 @@ passport.use(
 			// associated with the app, and then the secret which authenticates with that client.
 			clientID: keys.googleClientID,         // Needs: the client id
 			clientSecret: keys.googleClientSecret, // Needs: the clientSecret
-			callbackURL: '/auth/google/callback'   // Route the user is sent to after they authenticate.
+			callbackURL: '/auth/google/callback',   // Route the user is sent to after they authenticate.
+      proxy: true // deal with http vs https.
     },
     (accessToken, refreshToken, profile, done) => {
       User.findOne({ googleId: profile.id}).then(existingUser => {

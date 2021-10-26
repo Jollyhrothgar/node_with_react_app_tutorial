@@ -209,3 +209,8 @@ then you want to not jeapordize your prod service.
 
 Dev keys let us be more relaxed. Also lets us have a clean prod DB. Never manually mess around with
 prod databases.
+
+**56**
+
+Relative paths - http vs https...ugh. Relative callbacks are critical, so GoogleStrategy has to be
+invoked correctly in prod
